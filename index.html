@@ -15,13 +15,24 @@
 <body>
     <header>
         <nav>
-            <ul>                
+            <ul>
             </ul>
         </nav>
         <div >
             <h1>HealthHero</h1>            
         </div>
-    </div>    
+        <div>
+        <form  method="POST"></form>
+            
+                <label for="username">Username or Email:</label>
+                <input type="text" id="username" name="username" />
+
+                <label for="pass">Password (8 characters minimum):</label>
+                <input type="password" id="pass" name="password" minlength="8" required />
+            
+            <input type="submit" value="Sign in" />
+        </form>
+        </div>
     </header>
 </body>
 </html>
